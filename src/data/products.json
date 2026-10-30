@@ -1,0 +1,68 @@
+[
+  {
+    "id": "item-001",
+    "name": "M4A1",
+    "categoryId": "rifles",
+    "category": "Rifles",
+    "price": 24000,
+    "type": "display",
+    "manufacturer": "Sample Industries",
+    "description": "High-fidelity non-functional display model. Features authentic weight and anodized finish. For exhibition only.",
+    "image": "/images/products/item-001.jpg"
+  },
+  {
+    "id": "item-002",
+    "name": "1911 GBB",
+    "categoryId": "handguns",
+    "category": "Handguns",
+    "price": 12000,
+    "type": "airsoft",
+    "manufacturer": "Fictional Forge Co.",
+    "description": "Gas blowback airsoft pistol for competitive sport shooting. Full metal frame construction.",
+    "image": "/images/products/item-002.jpg"
+  },
+  {
+    "id": "item-003",
+    "name": "SR-25",
+    "categoryId": "sniper-rifles",
+    "category": "Sniper Rifles",
+    "price": 35000,
+    "type": "display",
+    "manufacturer": "Sample Industries",
+    "description": "1:1 scale static model. Perfect for collectors and display cases. Non-firing mechanism.",
+    "image": "/images/products/item-003.jpg"
+  },
+  {
+    "id": "item-004",
+    "name": "Pump Shotgun",
+    "categoryId": "shotguns",
+    "category": "Shotguns",
+    "price": 16500,
+    "type": "airsoft",
+    "manufacturer": "Fictional Forge Co.",
+    "description": "Spring-powered airsoft shotgun with synthetic furniture for recreational target practice.",
+    "image": "/images/products/item-004.jpg"
+  },
+  {
+    "id": "item-005",
+    "name": "Heavy Machine Gun",
+    "categoryId": "machine-guns",
+    "category": "Machine Guns",
+    "price": 70000,
+    "type": "display",
+    "manufacturer": "Sample Industries",
+    "description": "Large-scale non-functional machine gun prop. Ideal for cinematic sets or private collections.",
+    "image": "/images/products/item-005.jpg"
+  },
+  {
+    "id": "item-006",
+    "name": "Classic Revolver",
+    "categoryId": "revolvers",
+    "category": "Revolvers",
+    "price": 10000,
+    "type": "airsoft",
+    "manufacturer": "Fictional Forge Co.",
+    "description": "CO2 powered airsoft revolver. Includes dummy shells for realistic sport loading.",
+    "image": "/images/products/item-006.jpg"
+  }
+]
