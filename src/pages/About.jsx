@@ -5,16 +5,14 @@ import PrimaryButton from '../components/PrimaryButton';
 export default function About() {
   return (
     <div className="w-full flex flex-col gap-20 pb-16">
-
-      {/* 1. Brand Introduction (Hero) */}
-      <section className="relative w-full h-[50vh] min-h-[400px] flex items-center justify-center bg-arseniq-secondary border border-arseniq-olive/20 rounded-2xl overflow-hidden mt-4">
-        <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(17,20,17,0.4),rgba(17,20,17,1))] z-10" />
+      <section className="relative w-full h-[50vh] min-h-[400px] flex items-center justify-center bg-arseniq-secondary border border-arseniq-border rounded-2xl overflow-hidden mt-4">
+        <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(11,15,12,0.4),rgba(11,15,12,1))] z-10" />
         <div className="absolute inset-0 flex items-center justify-center opacity-10">
           <span className="text-arseniq-text tracking-widest text-xl uppercase font-heading">
             Arsenal Showcase Visual Placeholder
           </span>
         </div>
-
+        
         <div className="relative z-20 text-center px-4 max-w-3xl mx-auto flex flex-col items-center gap-6">
           <h1 className="font-heading text-5xl md:text-6xl text-arseniq-text font-bold tracking-tight">
             Our Purpose.
@@ -25,11 +23,8 @@ export default function About() {
         </div>
       </section>
 
-      {/* 2 & 3. Precision Philosophy & Classification Standards */}
       <section className="grid grid-cols-1 md:grid-cols-2 gap-8">
-
-        {/* Precision and Design Philosophy */}
-        <div className="bg-arseniq-secondary border border-arseniq-olive/10 rounded-xl p-8 md:p-12 flex flex-col gap-6 hover:border-arseniq-olive/30 transition-colors">
+        <div className="bg-arseniq-secondary border border-arseniq-border rounded-xl p-8 md:p-12 flex flex-col gap-6 hover:border-arseniq-olive/30 transition-colors">
           <div className="h-12 w-12 rounded-full bg-arseniq-primary border border-arseniq-olive/30 flex items-center justify-center text-arseniq-olive">
             <Target size={24} />
           </div>
@@ -41,8 +36,7 @@ export default function About() {
           </p>
         </div>
 
-        {/* Product Classification Standards */}
-        <div className="bg-arseniq-secondary border border-arseniq-olive/10 rounded-xl p-8 md:p-12 flex flex-col gap-6 hover:border-arseniq-olive/30 transition-colors">
+        <div className="bg-arseniq-secondary border border-arseniq-border rounded-xl p-8 md:p-12 flex flex-col gap-6 hover:border-arseniq-olive/30 transition-colors">
           <div className="h-12 w-12 rounded-full bg-arseniq-primary border border-arseniq-olive/30 flex items-center justify-center text-arseniq-olive">
             <Eye size={24} />
           </div>
@@ -50,20 +44,17 @@ export default function About() {
             Classification Standards
           </h2>
           <p className="text-arseniq-muted leading-relaxed">
-            Transparency is core to our catalog. We strictly categorize our inventory into two clear classifications:
-            <strong className="text-arseniq-lightOlive font-medium mx-1">Airsoft Models</strong> designed for recreational sport, and
+            Transparency is core to our catalog. We strictly categorize our inventory into two clear classifications: 
+            <strong className="text-arseniq-lightOlive font-medium mx-1">Airsoft Models</strong> designed for recreational sport, and 
             <strong className="text-arseniq-lightOlive font-medium mx-1">Display Models</strong> which are static, non-firing props meant exclusively for exhibition.
           </p>
         </div>
-
       </section>
 
-      {/* 4. Responsible Display Policy */}
-      <section className="bg-arseniq-primary border border-arseniq-olive/20 rounded-xl p-8 md:p-16 flex flex-col items-center text-center gap-8 relative overflow-hidden">
+      <section className="bg-arseniq-primary border border-arseniq-border rounded-xl p-8 md:p-16 flex flex-col items-center text-center gap-8 relative overflow-hidden">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-3/4 h-1 bg-gradient-to-r from-transparent via-arseniq-olive to-transparent opacity-50" />
-
         <Shield size={48} strokeWidth={1} className="text-arseniq-olive" />
-
+        
         <div className="max-w-4xl flex flex-col gap-4">
           <h2 className="font-heading text-3xl md:text-4xl text-arseniq-text font-bold">
             Responsible Display Policy
@@ -72,13 +63,12 @@ export default function About() {
             Our absolute commitment is to safety and legal compliance. ARSENIQ is a demonstration platform and collector's gallery. We do not sell real firearms, live ammunition, or functional weapon components. All items showcased are incapable of being converted to fire live ammunition.
           </p>
           <p className="text-lg text-arseniq-muted leading-relaxed">
-            We advise all enthusiasts to adhere to their local regulations regarding the transport, display, and usage of airsoft models and replica props.
+            We advise all enthusiasts to adhere to their local regulations regarding the transport, display, and usage of airsoft models and display props.
           </p>
         </div>
       </section>
 
-      {/* 5. Brand Information */}
-      <section className="flex flex-col md:flex-row justify-between items-center bg-arseniq-secondary border border-arseniq-olive/10 rounded-xl p-8 gap-8">
+      <section className="flex flex-col md:flex-row justify-between items-center bg-arseniq-secondary border border-arseniq-border rounded-xl p-8 gap-8">
         <div className="flex items-center gap-4">
           <div className="h-12 w-12 rounded bg-arseniq-primary flex items-center justify-center text-arseniq-lightOlive">
             <Info size={24} />
@@ -88,14 +78,12 @@ export default function About() {
             <p className="text-sm text-arseniq-muted">Demonstration Platform Version 1.0</p>
           </div>
         </div>
-
         <div className="flex gap-4 w-full md:w-auto">
           <PrimaryButton className="w-full md:w-auto">
             <Link to="/catalog">View Catalog</Link>
           </PrimaryButton>
         </div>
       </section>
-
     </div>
   );
 }
